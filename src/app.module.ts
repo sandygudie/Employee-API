@@ -4,7 +4,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { MongooseModule } from '@nestjs/mongoose';
 import { EmployeeModule } from './employee/employee.module';
-console.log(process.env);
+
 @Module({
   imports: [
     ConfigModule.forRoot(),
